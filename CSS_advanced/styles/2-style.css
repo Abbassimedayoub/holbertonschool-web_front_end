@@ -1,18 +1,23 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     color: #161616;
 }
-a{
+
+a {
     color: #161616;
 }
-.visually-hidden{
+
+.visually-hidden {
     display: none;
 }
-.car.card-category{
+
+.card-category {
     color: #D73953;
 }
-.selesection-tagline{
+
+.section-tagline {
     color: #D73953;
 }
