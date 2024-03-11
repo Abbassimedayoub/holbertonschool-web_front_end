@@ -198,25 +198,30 @@ ul.row {
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
 }
+
 .footer-address {
     color: var(--text-color);
 }
-.social-link{
-    display: block;
 
+.social-link {
+    display: block;
 }
+
 .social-link > svg {
     fill: var(--text-color);
 }
+
 .card-services .card-title {
     margin: 0;
 }
-.card-services a{
+
+.card-services a {
     display: block;
     padding: 2rem;
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
-.card-services a:hover{
+
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
