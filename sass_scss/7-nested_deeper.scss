@@ -1,0 +1,15 @@
+$font-size: 14px;
+$h1_font-size: 16px;
+$h1_smaller_font-size: 12px;
+
+body {
+    font-size: $font-size;
+
+    h1 {
+        font-size: $h1_font-size;
+
+        &.smaller {
+            font-size: $h1_smaller_font-size;
+        }
+    }
+}
