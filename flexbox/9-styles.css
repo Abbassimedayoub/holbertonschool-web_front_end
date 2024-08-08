@@ -579,7 +579,7 @@ ul.row {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    min-height: 50vh;    
+    min-height: 50vh;
 }
 
 /* Section Latest news
@@ -595,8 +595,11 @@ ul.row {
 .section-services .row {
     flex-wrap: wrap;
 }
-/* Section ABOUT US */
-.secsection-about-us [class*='col-'] {
+
+/* Section ABOUT US
+      ============================= */
+
+.section-about-us [class*='col-'] {
     align-self: center;
 }
 
