@@ -240,8 +240,8 @@ template {
 
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    /* --header-logo-position: relative; */
-    /* --header-logo-link-display: inline-block;
+    /* --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0; */
@@ -365,6 +365,7 @@ a:active {
 
 /* Grid
       ============================= */
+
 .row {
     display: flex;
 }
@@ -375,13 +376,12 @@ ul.row {
     list-style: none;
 }
 
-/* delte it 
-.row::after {
+/* .row::after {
     content: '';
     display: table;
     clear: both;
-}
-*/
+} */
+
 [class*='col-'] {
     /* float: left; */
     /* padding: 0.5rem; */
@@ -411,6 +411,10 @@ ul.row {
     text-align: center;
 }
 
+.nav .nav-item+.nav-item {
+    margin: var(--nav-item-margin);
+}
+
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -418,11 +422,6 @@ ul.row {
     letter-spacing: var(--nav-item-letter-spacing);
     /* display: var(--nav-item-display); */
     /* margin: var(--nav-item-margin); */
-}
-
-.nav .nav-item+.nav-item {
-    margin: var(--nav-item-margin);
-
 }
 
 .nav .nav-link {
@@ -462,6 +461,12 @@ ul.row {
     background: transparent;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* .header-logo {
     position: var(--header-logo-position);
 }
@@ -472,10 +477,6 @@ ul.row {
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
 } */
-.header-container {
-    display: flex;
-    justify-content: space-between;
-}
 
 /* Footer
       ============================= */
@@ -590,7 +591,7 @@ ul.row {
 }
 
 /*** 4. CARD ***/
-.
+
 /* Card (all styles)
       ============================= */
 
