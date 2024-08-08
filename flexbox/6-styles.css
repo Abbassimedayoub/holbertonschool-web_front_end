@@ -411,7 +411,7 @@ ul.row {
     text-align: center;
 }
 
-.nav .nav-item+.nav-item {
+.nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
 }
 
@@ -590,7 +590,7 @@ ul.row {
     flex-wrap: wrap;
 }
 
-/*** 4. CARD ***/
+      /*** 4. CARD ***/
 
 /* Card (all styles)
       ============================= */
