@@ -205,9 +205,11 @@ template {
     --color-red: #cd3e65;
     --color-green: #08805b;
 
-
     --text-color: var(--color-black);
-    --valid-color: var(var(--color-green)) --error-color: var(--color-red) --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --valid-color: var(--color-green);
+    --error-color: var(--color-red);
+
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     --font-size-small: 1.2rem;
@@ -917,6 +919,7 @@ textarea:focus {
 
 /* Form group
 ============================= */
+
 .form-group {
     padding: 1rem;
     margin: 0;
@@ -930,6 +933,7 @@ textarea:focus {
 
 /* Form field
 ============================= */
+
 .form-field-container {
     position: relative;
 }
@@ -940,6 +944,7 @@ textarea:focus {
 
 /* Form help
 ============================= */
+
 .form-group .form-help {
     margin: 0;
     line-height: 1.3;
