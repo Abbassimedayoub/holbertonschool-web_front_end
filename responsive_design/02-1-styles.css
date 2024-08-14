@@ -997,6 +997,11 @@ textarea:focus {
     margin: .4rem 0 0;
 }
 
+main img {
+    width: 100%;
+    height: auto;
+}
+
 /* Form error handling
       ============================= */
 
