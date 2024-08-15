@@ -73,4 +73,3 @@ Contributions to improve accessibility are welcome. Please follow our contributi
 For any questions or support regarding accessibility, please contact:
 
 - **Accessibility Team**: [abbassimohamedayoub@gmail.com]
-=
