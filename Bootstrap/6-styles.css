@@ -27,3 +27,7 @@ a:focus {
 .text-muted {
     color: #8C8C8C;
 }
+
+.border-bottom {
+    border-bottom: 1px solid #E0003C !important;
+}
